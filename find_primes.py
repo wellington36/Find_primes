@@ -26,6 +26,6 @@ if __name__ == '__main__':
 
     primes = find_prime(N)
 
-    end2 = time.time()
+    end = time.time()
 
-    print(f"Wellington's algorithm: {end2 - end1}")
+    print(f"Wellington's algorithm: {end - start}")

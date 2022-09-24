@@ -1,2 +1,3 @@
-# Find_primes
-Code in python to find prime numbers
+# Algorithm of Finding Prime Numbers
+
+Change the N in `find_primes.py` to find primes in different range.
