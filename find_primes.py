@@ -20,7 +20,7 @@ def find_prime(n):
 
 
 if __name__ == '__main__':
-    N = 10000000
+    N = 10_000_000
 
     start = time.time()
 
@@ -28,4 +28,5 @@ if __name__ == '__main__':
 
     end = time.time()
 
+    print(f"Lage prime: {len(primes)}")
     print(f"Wellington's algorithm: {end - start}")
