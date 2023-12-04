@@ -1,3 +1,11 @@
 # test
 sandbox.py
 sandbox.txt
+sandbox.ipynb
+
+# large files
+primes*
+
+# venv files
+./venv
+
