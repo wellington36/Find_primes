@@ -35,17 +35,15 @@ def Miller_Rabin_primality_test(n, k):
 
 def deterministic_prime_test(primes, n):
     temp = int(n**0.5)
-    result = True
     i=0
-    
-    while (primes[i]<temp & result):
-        
-        if (n%primes[i] != 0):
-            result = True
-        else: result = False
+
+    while (primes[i]<=temp):
+
+        if (n%primes[i] == 0):
+            return False
         i+=1
-        
-    return result
+
+    return True
 
 if __name__ == '__main__':
     primes = [2]
