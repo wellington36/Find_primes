@@ -37,4 +37,4 @@ We tested the primality of the first Mersenne numbers with the codes from this r
 | $M_{9689}$ | 4782...4111 | 2917   | ✔️         | ✔️           | -               | -                   |
 | $M_{9941}$ | 3460...3551 | 2993   | ✔️         | ✔️           | -               | -                   |
 
-_'-' indicates when it was not computationally possible to perform the test_
+_'-' indicates when it was not computationally possible to carry out the test, using the machine used._
